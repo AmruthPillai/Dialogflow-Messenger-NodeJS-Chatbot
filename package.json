@@ -4,6 +4,7 @@
   "description": "This is a tutorial for teaching how to link the three entities, Google Dialogflow and Facebook Messenger using Node.JS.",
   "main": "index.js",
   "scripts": {
+    "server": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/AmruthPillai/Dialogflow-Messenger-NodeJS-Chatbot.git"
   },
   "keywords": [
-    "i\u001b[2dialogflow",
+    "dialogflow",
     "messenger",
     "api.ai",
     "nodejs"
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/AmruthPillai/Dialogflow-Messenger-NodeJS-Chatbot#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "request": "^2.83.0"
   }
 }

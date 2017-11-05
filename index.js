@@ -15,4 +15,7 @@ app.use(bodyParser.json());
 // Parse application/vnd.api+json as json
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
+// Routes
+require('./routes.js')(app);
+
 app.listen(port, () => console.log('Webhook server is listening on port ' + port));
